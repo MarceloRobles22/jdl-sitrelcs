@@ -149,3 +149,7 @@ relationship ManyToMany {
 	Accion to Contacto
     Contacto to Respuesta
 }
+
+dto * with mapstruct
+service all with serviceClass
+paginate Deudor, Operacion, DetalleOperacion, Campana, Estrategia, Pago, Estado with pagination
